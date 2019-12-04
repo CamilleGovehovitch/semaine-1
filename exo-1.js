@@ -1,1 +1,10 @@
 console.log('hello world');
+let a = 3;
+let b = 2;
+let c;
+console.log('a = ' + a,'b = ' + b);
+c = a;
+a = b;
+console.log('c = ' + c, 'a = ' + a);
+b = a;
+console.log('a = ' + a, 'b = ' +b);
