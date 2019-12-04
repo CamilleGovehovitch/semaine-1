@@ -6,5 +6,5 @@ console.log('a = ' + a,'b = ' + b);
 c = a;
 a = b;
 console.log('c = ' + c, 'a = ' + a);
-b = a;
+b = c;
 console.log('a = ' + a, 'b = ' +b);
