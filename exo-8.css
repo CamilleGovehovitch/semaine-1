@@ -1,0 +1,16 @@
+
+.container{
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left:auto;
+}
+.form{
+    box-shadow: 15px 17px 67px -22px rgba(102,102,102,1);
+}
+.result-container{
+    box-shadow: 15px 17px 67px -22px rgba(102,102,102,1);
+
+}
+.h1{
+    text-align: center;
+}
