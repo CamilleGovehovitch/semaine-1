@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="exo-8.css">
+    <title>Document</title>
+</head>
+<body>
+<div >
+    <div class="form container">
+        <h1 class="h1">Fill the form</h1>
+        <h2>Input</h2>
+        <form>
+            <fieldset>
+                <legend>Name</legend>
+                <label>Name One</label>
+                <input type="text" id="inputOne" placeholder="Name"/>
+                <label>Name Two</label>
+                <input type="text" id="inputTwo" placeholder="Name"/>
+                <label>Name Three</label>
+                <input type="text" id="inputThree" placeholder="Name"/>
+            </fieldset>
+            <fieldset>
+                <legend>Push into array</legend>
+                <input type="button" onclick="pushArray(inputOne, inputTwo, inputThree)" value="Check">
+            </fieldset>
+            <fieldset>
+                <legend>How it is sort?</legend>
+                <input type="button" onclick="isSorted(array)" value="Go">
+            </fieldset>
+        </form>
+    </div>
+    <div class="result-container container">
+        <div class="container">
+            <h2>Result</h2>
+            <p id="result"></p>
+        </div>
+        <div class="container">
+            <h2>Result Sort</h2>
+            <p id="resultSort"></p>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="./exo-8.js"></script>
+</body>
+</html>
