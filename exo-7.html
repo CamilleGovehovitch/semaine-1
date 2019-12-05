@@ -8,15 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-<div class="container">
-    <div class="before" id="result">
+<div >
+    <div>
+        <h2>Input</h2>
+        <form>
+            <fieldset>
+                <legend>Numbers</legend>
+                <label>Num One</label>
+                <input type="text" id="inputOne" placeholder="Number"/>
+                <label>Num Two</label>
+                <input type="text" id="inputTwo" placeholder="Number"/>
+            </fieldset>
+            <fieldset>
+                <legend>Check If it's POS or NEG</legend>
+                <input type="button" onclick="prod(inputOne, inputTwo)" value="Check">
+            </fieldset>
+        </form>
+    </div>
+    <div>
         <h2>Result</h2>
-        <p id="a"></p>
-        <p id="b"></p>
-        <p id="c"></p>
-        <p id="d"></p>
-        <p id="e"></p>
-
+        <p id="result"></p>
     </div>
 
 </div>
