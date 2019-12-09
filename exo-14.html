@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h2>Tarifs</h2>
+    <p>10 photocopies = 0.10 euros</p>
+    <p>20 photocopies = 0.09 euros</p>
+    <p>+ 20 = 0.08 euros</p>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Nombres de Photocopie</legend>
+                <label>Nombre de photocopie</label>
+                <input type="text" id="input1" placeholder="nombre de photocopie">
+                <input type="button" id="btn" onclick="copy(input1)" value="Go">
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <h2>Result</h2>
+        <p id="result"></p>
+    </div>
+
+</div>
+
+<script src="./exo-14.js"></script>
+</body>
+</html>
